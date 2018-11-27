@@ -5,15 +5,29 @@ import logo from '../../assets/images/logo_modf.png';
 class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar">
-        <Link className="navbar-brand" to="/home">
-          <img
-            src={logo}
-            width="250"
-            height="77"
-            alt=""
-          />
-        </Link>
+      <nav className="site-header">
+        <Link className="site-logo" to="/home">
+          <img src={logo} alt=""/>
+        </Link>      
+            <Link className="primary-menu-item" to="/home">
+              Home <span className="sr-only">(current)</span>
+            </Link>
+            <Link className="primary-menu-item" to="/about" >
+              About
+            </Link>
+            <Link className="primary-menu-item" to="/menu" >
+              Menu
+            </Link>
+            <Link className="primary-menu-item" to="/contact">
+              Gallery
+            </Link>
+            <Link className="primary-menu-item" to="/contact">
+              About
+            </Link>
+            <Link className="primary-menu-item" to="/contact">
+              Contact
+            </Link>
+       
       </nav>
     );
   }
