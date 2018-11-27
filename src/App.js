@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Layout/Navbar';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
+      <div className="container">
          <Navbar />
       </div>
       </Router>
