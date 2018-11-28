@@ -26,6 +26,10 @@ body {
   text-align: center;
 }
 
+a.site-logo {
+  background-color: #fff;
+}
+
 .site-header {
   line-height: 1;
 }
@@ -107,4 +111,25 @@ body {
     -ms-flex-item-align: center;
     align-self: center;
   }
+}
+
+a.navbar-brand {
+  color: #D9C562;
+}
+
+.home {
+  margin-top: 10em;
+}
+
+.home h1 {
+    background: -webkit-linear-gradient(#B28A33, #D9C562);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+/* footer style */
+nav.navbar.fixed-bottom {
+  justify-content: center;
 }

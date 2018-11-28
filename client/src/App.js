@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Layout/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Footer from './Components/Layout/Footer';
+import Home from './Components/Layout/Home';
 
 
 class App extends Component {
@@ -22,6 +24,8 @@ class App extends Component {
       <Router>
       <div className="container">
          <Navbar />
+         <Home />
+         <Footer />
       </div>
       </Router>
     );
