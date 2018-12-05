@@ -30,6 +30,7 @@ class App extends Component {
       <Router>
       <div className="some-random-class">
          <Navbar />
+         <Route exact path="/" component={Home} />
          <Route exact path="/home" component={Home} />
          <Route exact path="/social" component={Social} />
          <Route exact path="/menu" component={Menu} />
