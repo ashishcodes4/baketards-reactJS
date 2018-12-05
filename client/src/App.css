@@ -310,13 +310,13 @@ main.content {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .text-banner.banner-menu {
-  background-image: url(assets/attachments/Cover.jpg);
+  background-image: url(assets/images/menu-banner.jpg);
 }
 .text-banner.banner-about {
-  background-image: url(assets/attachments/Cover.jpg);
+  background-image: url(assets/images/story-banner.jpg);
 }
 .text-banner.banner-locations {
-  background-image: url(assets/attachments/Cover.jpg);
+  background-image: url(assets/images/location-banner.jpg);
 }
 
 .text-banner a {
